@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+header {
+    background-color: black;
+}
+
+nav {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.user-card {
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border: 3px solid gray;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-header{
+    height: 100px;
+    background-color: rgb(58,153,153);
+    margin-bottom: 70px;
+}
+
+.avatar {
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left:50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+.card-body {
+    padding: 0px 20px 20px 45px;
+
+}
+
+.icon {
+    height: 20px
+}
+
+h1,h3,p {
+    margin-bottom: 20px;
+}
+main{
+    display: flex;
+    justify-content: space-between
+}
+
+.connections {
+    width: 350px;
+    height: 280px;
+    background-color: whitesmoke;
+    border: 3px solid gray;
+    margin: 0 auto;
+}
+
+.connections-header{
+    height: 40px;
+    background-color:gray;
+    color: white;
+    margin: 0 auto;
+}
+
+.todd {
+    height: 90px;
+    border-radius:150px
+}
+.ch3 {
+    margin-left: 150px;
+}
+.positive {
+    height: 50px;
+    margin-left: 60px;
+}
+.negative {
+    height: 50px;
+    margin-right: 30px;
+
+}
+.phil {
+    height: 90px;
+    border-radius:150px
+}
+
+.size   {
+    height: 20px;
+    margin: 20px
+}
+
+.connections-body {
+ width: 200px;
+ height: 100px;
+ margin: 20px;
+ 
+}
+
+.education-card {
+    width: 600px;
+    height: 280px;
+    background-color: whitesmoke;
+    border: 3px solid gray;
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.education {
+    padding: 40px;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.education-header {
+    height: 80px;
+    background-color:gray;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.education-body {
+    padding: 40px;
+}
+
+.your {
+    width: 330px;
+    height: 600px;
+    background-color: whitesmoke;
+    border: 3px solid gray;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.your-header {
+    height: 50px;
+    background-color:gray;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.contacts {
+    height: 80px;
+    margin: 15px;
+    border-radius:150px
+}
+
+.yourh3 {
+    padding: 20px;
+    margin-left: 120px;
+}
+.view {
+    padding: 20px;
+}
